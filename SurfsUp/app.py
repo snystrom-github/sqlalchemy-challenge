@@ -44,8 +44,8 @@ def homepage():
        f"/api/v1.0/precipitation<br/>"
        f"api/v1.0/stations<br/>"
        f"/api/v1.0/tobs<br/>"
-       f"/api/v1.0/&lt;start&gt;<br/>"
-       f"/api/v1.0/&lt;start&gt;/&lt;end&gt"
+       f"/api/v1.0/<start><br/>"
+       f"/api/v1.0/<start>/<end>"
     ) 
 
 @app.route("/api/v1.0/precipitation")
